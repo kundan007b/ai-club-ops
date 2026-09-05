@@ -1,0 +1,17 @@
+# AI Club Nalanda University - Code & Policy Owners
+# These owners are automatically requested for review when someone opens a Pull Request.
+
+# Default owner for everything in the repository
+* @DayDreamer-commits
+
+# Critical Constitutional Charter & Founder Property Safeguards
+/CHARTER.md @DayDreamer-commits
+
+# Master Governance & Team Structure (Protected by 80% Consent Rule)
+/TEAM_STRUCTURE.md @DayDreamer-commits
+/sops/01_GOVERNANCE_AND_SUCCESSION/ @DayDreamer-commits
+
+# Automated Validation Schemas & Tooling CLI
+/schemas/ @DayDreamer-commits
+/src/ @DayDreamer-commits
+/.github/ @DayDreamer-commits
