@@ -44,6 +44,7 @@
 1. The collective shall be known as the **AI Club, Nalanda University** (hereinafter referred to as the "Club").
 2. The Club is established under the aegis of the **MSc Data Science & AI Programme** at Nalanda University (Rajgir, Bihar, India), serving the founding Cohort 2026–28 and all subsequent graduating cohorts.
 3. The official digital identity, documentation, and registry are anchored at `https://aiclub.nalandalibrary.com` and GitHub organisation `nalanda-ai-club`.
+4. **Domain Ownership & Non-Transferability**: The root domain `nalandalibrary.com` (and all associated top-level infrastructure) is the exclusive, non-transferable private property of the Founder. The Club operates its digital presence on the delegated subdomain (`aiclub.nalandalibrary.com`). Under no circumstances is root domain ownership or registrar transfer permitted as part of cohort succession or governance transitions.
 
 ---
 
@@ -172,6 +173,9 @@
 | **SOP-052** | Public Ledger Maintenance & Audit Deck | Financial Steward | Student Audit Cmt | Convenor | Quarterly | Published `LEDGER.md` update |
 | **SOP-060** | Model Card Enforcement & Bias Screen | AI Safety Steward | Tech Steward | Project Authors | Per Model Release| Compliant `MODEL_CARD.md` |
 | **SOP-061** | DPDP Compliance & PII Scrubbing Audit | AI Safety Steward | Tech Steward | Web Platform DRI | Per Dataset Launch| Anonymization verification report |
+
+> [!IMPORTANT]
+> **Founder Asset & Domain Exemption**: The root domain `nalandalibrary.com` is the non-transferable private property of the Founder. The Web Platform DRI and Technical Steward administer delegated DNS records for `aiclub.nalandalibrary.com` only; root registrar ownership is strictly non-transferable and excluded from cohort transitions.
 
 ---
 
@@ -382,9 +386,13 @@ Open Nomination           Co-Shadowing             Full Credential         Forma
 ### Phase III: Digital Asset & Credential Transfer (T - 14 to T - 7 Days)
 All transitions must execute the verified **Asset Transfer Protocol**:
 
-| Asset / Account | Transfer Method | Verification Criterion |
+> [!IMPORTANT]
+> **Founder Asset Protection**: The root domain `nalandalibrary.com` is the exclusive, non-transferable private property of the Founder. Under no circumstances is root registrar ownership transferred across cohorts. The Club operates solely on delegated DNS access for `aiclub.nalandalibrary.com`.
+
+| Asset / Account | Transfer / Delegation Method | Verification Criterion |
 | :--- | :--- | :--- |
-| **Domain & DNS (`nalandalibrary.com`)** | Namecheap / Cloudflare admin invite to junior lead email | Incoming lead logs in without outgoing assistance |
+| **Root Domain (`nalandalibrary.com`)** | **NON-TRANSFERABLE** | Sole property of Founder. Retained permanently. |
+| **Subdomain DNS (`aiclub.nalandalibrary.com`)** | Cloudflare DNS manager access delegated to incoming lead | Incoming lead updates record; root ownership verified intact |
 | **GitHub Org (`nalanda-ai-club`)** | Transfer `Owner` role; downgrade outgoing to `Member` / `Alumni` | Incoming lead successfully merges a test PR |
 | **Google Apps Script & Sheet** | Transfer Ownership of Sheet and Script project | Incoming lead verifies `loadMembers()` and write triggers |
 | **Cloud Accounts (RunPod/GCP/AWS)** | Add new billing admins; rotate root API keys | Old API tokens revoked; verified zero residual billing liability |
@@ -637,7 +645,7 @@ To ensure zero-friction member intake, immediate integration into the collaborat
 
 ```
  ┌────────────────────────────────────────────────────────┐
- │ 1. Student accesses https://nalandalibrary.com/join.html│
+ │ 1. Student accesses https://aiclub.nalandalibrary.com/join.html│
  └───────────────────────────┬────────────────────────────┘
                              │ Submits Web Form
  ┌───────────────────────────▼────────────────────────────┐

@@ -26,6 +26,18 @@ class TestSopsIntegrity(unittest.TestCase):
         self.assertIn("Article V: Responsible AI & Civilizational Ethics", charter_text)
         self.assertIn("Article VI: Amendments", charter_text)
         self.assertIn("80%", charter_text)
+        self.assertIn("exclusive, non-transferable private property of the Founder", charter_text)
+
+    def test_domain_non_transferable_in_succession_docs(self):
+        sop11_path = SOPS_DIR / "01_GOVERNANCE_AND_SUCCESSION" / "SOP-011-annual-succession-and-asset-handoff.md"
+        sop11_text = sop11_path.read_text(encoding="utf-8")
+        self.assertIn("NON-TRANSFERABLE", sop11_text)
+        self.assertIn("Sole property of Founder", sop11_text)
+
+        checklist_path = BASE_DIR / "templates" / "succession-handoff-checklist.md"
+        checklist_text = checklist_path.read_text(encoding="utf-8")
+        self.assertIn("NON-TRANSFERABLE", checklist_text)
+        self.assertIn("Founder", checklist_text)
 
     def test_team_structure_and_task_ownership(self):
         self.assertTrue(TEAM_STRUCTURE_PATH.exists())

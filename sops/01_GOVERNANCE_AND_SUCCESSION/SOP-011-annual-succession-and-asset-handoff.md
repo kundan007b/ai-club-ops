@@ -45,9 +45,13 @@ Open Nomination           Co-Shadowing             Full Credential         Forma
 ### Phase III: Digital Asset & Credential Transfer (T - 14 to T - 7 Days)
 All transitions must execute the verified **Asset Transfer Protocol**:
 
-| Asset / Account | Transfer Method | Verification Criterion |
+> [!IMPORTANT]
+> **Founder Asset Protection**: The root domain `nalandalibrary.com` is the exclusive, non-transferable private property of the Founder. Under no circumstances is root registrar ownership transferred across cohorts. The Club operates solely on delegated DNS access for `aiclub.nalandalibrary.com`.
+
+| Asset / Account | Transfer / Delegation Method | Verification Criterion |
 | :--- | :--- | :--- |
-| **Domain & DNS (`nalandalibrary.com`)** | Namecheap / Cloudflare admin invite to junior lead email | Incoming lead logs in without outgoing assistance |
+| **Root Domain (`nalandalibrary.com`)** | **NON-TRANSFERABLE** | Sole property of Founder. Retained permanently. |
+| **Subdomain DNS (`aiclub.nalandalibrary.com`)** | Cloudflare DNS manager access delegated to incoming lead | Incoming lead updates record; root ownership verified intact |
 | **GitHub Org (`nalanda-ai-club`)** | Transfer `Owner` role; downgrade outgoing to `Member` / `Alumni` | Incoming lead successfully merges a test PR |
 | **Google Apps Script & Sheet** | Transfer Ownership of Sheet and Script project | Incoming lead verifies `loadMembers()` and write triggers |
 | **Cloud Accounts (RunPod/GCP/AWS)** | Add new billing admins; rotate root API keys | Old API tokens revoked; verified zero residual billing liability |

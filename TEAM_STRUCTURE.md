@@ -80,6 +80,9 @@
 | **SOP-060** | Model Card Enforcement & Bias Screen | AI Safety Steward | Tech Steward | Project Authors | Per Model Release| Compliant `MODEL_CARD.md` |
 | **SOP-061** | DPDP Compliance & PII Scrubbing Audit | AI Safety Steward | Tech Steward | Web Platform DRI | Per Dataset Launch| Anonymization verification report |
 
+> [!IMPORTANT]
+> **Founder Asset & Domain Exemption**: The root domain `nalandalibrary.com` is the non-transferable private property of the Founder. The Web Platform DRI and Technical Steward administer delegated DNS records for `aiclub.nalandalibrary.com` only; root registrar ownership is strictly non-transferable and excluded from cohort transitions.
+
 ---
 
 ## 4. Provisions for Changing Team Structure (The 80% Supermajority Rule)

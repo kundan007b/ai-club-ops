@@ -9,6 +9,7 @@
 1. The collective shall be known as the **AI Club, Nalanda University** (hereinafter referred to as the "Club").
 2. The Club is established under the aegis of the **MSc Data Science & AI Programme** at Nalanda University (Rajgir, Bihar, India), serving the founding Cohort 2026–28 and all subsequent graduating cohorts.
 3. The official digital identity, documentation, and registry are anchored at `https://aiclub.nalandalibrary.com` and GitHub organisation `nalanda-ai-club`.
+4. **Domain Ownership & Non-Transferability**: The root domain `nalandalibrary.com` (and all associated top-level infrastructure) is the exclusive, non-transferable private property of the Founder. The Club operates its digital presence on the delegated subdomain (`aiclub.nalandalibrary.com`). Under no circumstances is root domain ownership or registrar transfer permitted as part of cohort succession or governance transitions.
 
 ---
 

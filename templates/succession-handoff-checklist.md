@@ -14,7 +14,8 @@
 
 | Asset / Account | Responsible Outgoing Lead | Responsible Incoming Lead | Verified? | Notes / Date Completed |
 | :--- | :--- | :--- | :---: | :--- |
-| **Domain Registrar (`nalandalibrary.com`)** | | | [ ] | Ownership transferred / 2FA updated |
+| **Root Domain (`nalandalibrary.com`)** | N/A (Founder Asset) | N/A (Founder Asset) | [x] | **NON-TRANSFERABLE**: Private property of Founder |
+| **Subdomain DNS (`aiclub.nalandalibrary.com`)** | | | [ ] | Delegated DNS access verified |
 | **GitHub Org Admin (`nalanda-ai-club`)** | | | [ ] | New Owners added; outgoing downgraded |
 | **Google Apps Script & Members Sheet** | | | [ ] | Editor & Owner transferred |
 | **Cloud Accounts (RunPod / GCP / AWS)** | | | [ ] | Payment method updated; old keys rotated |

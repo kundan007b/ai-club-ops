@@ -19,7 +19,7 @@ To ensure zero-friction member intake, immediate integration into the collaborat
 
 ```
  ┌────────────────────────────────────────────────────────┐
- │ 1. Student accesses https://nalandalibrary.com/join.html│
+ │ 1. Student accesses https://aiclub.nalandalibrary.com/join.html│
  └───────────────────────────┬────────────────────────────┘
                              │ Submits Web Form
  ┌───────────────────────────▼────────────────────────────┐
