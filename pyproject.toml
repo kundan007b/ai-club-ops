@@ -29,4 +29,4 @@ ai-ops = "ai_club_ops.cli:main"
 
 [project.urls]
 Homepage = "https://aiclub.nalandalibrary.com"
-Repository = "https://github.com/nalanda-ai-club/ops"
+Repository = "https://github.com/DayDreamer-commits/ai-club-ops"

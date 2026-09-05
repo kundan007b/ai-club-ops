@@ -470,7 +470,7 @@ To eliminate lengthy, circular committee debates by establishing an asynchronous
    - Multidisciplinary Impact
 
 ### Step 2: Publish & Announce
-1. Open a Pull Request in the Club operations repository (`nalanda-ai-club/ops`).
+1. Open a Pull Request in the Club operations repository (`DayDreamer-commits/ai-club-ops`).
 2. Post a direct link to the PR in the official communication channel with the tag `[RFC-VOTE]`.
 3. The 72-hour countdown begins immediately upon posting.
 
